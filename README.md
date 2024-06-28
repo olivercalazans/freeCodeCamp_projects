@@ -10,3 +10,4 @@ In this course, I studied SQL, the PostgreSQL DBMS, and some Bash commands. I le
   - Create, remove and alter columns
   - Use primary and foreign keys
   - Use composite primary key
+  - Use SQL with Bash to manipulate the database
