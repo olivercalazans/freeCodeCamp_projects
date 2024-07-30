@@ -1,0 +1,14 @@
+h1, p {
+    text-align: center;
+    background-color: #1b1b32;
+    color: #ffffff;
+  }
+  
+  body {
+    background-color: #1b1b32;
+    color: #ffffff;
+  }
+  
+  .one, label{
+    display: block;
+  }

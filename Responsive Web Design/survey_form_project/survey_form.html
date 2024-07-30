@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey form</title>
+    <link rel="stilesheet" href="styles.css"/>
+  </head>
+  <body>
+  <h1 id="title"> Survey Form </h1>
+  <p id="description">Thanks for stopping by</p>
+  <form id="survey-form">
+    <label for="name" id="name-label"> Name: <input type="text" class="one" id="name" name="name" placeholder="Enter your name" required /></label>
+    <label for="email" id="email-label"> Email: <input type="email" class="one" id="email" name="email" placeholder="Enter your email" required /></label>
+    <label for="number" id="number-label">Age(optional): <input  type="number" class="one" id="number" name="age" min="13" max="120" placeholder="Enter your age" /></label>
+    <label for="experience"> What's your seniority level?
+      <select class="one" id="dropdown">
+        <option value="junior">Junior</option>
+        <option value="mid-level">Mid-level</option>
+        <option value="senior">Senior</option>
+      </select>
+    </label>
+
+    <label class="one" for="confimation"> Have you ever used Git?
+      <input type="radio" id="confirmation-yes" name="confirmation" value="yes" /> Yes
+      <input type="radio" id="confirmation-no" name="confirmation" value="no" /> No
+    </label>
+
+    <legend class="one"> What tecnologies do you know? </legend>
+    <label for="skill-html"><input type="checkbox" id="skill-html" name="html" value="html"> HTML</label>
+    <label for="skill-css"><input type="checkbox" id="skill-css" name="css" value="css"> CSS</label>
+    <label for="skill-python"><input type="checkbox" id="skill-python" name="python" value="python"> Python</label>
+    <label for="skill-php"><input type="checkbox" id="skill-php" name="php" value="php"> PHP</label>
+    <label for="skill-JavaScript"><input type="checkbox" id="skill-JavaScript" name="JavaScript" value="JavaScript"> JavaScript</label>
+    <label for="skill-Java"><input type="checkbox" id="skill-Java" name="java" value="Java"> Java</label>
+    <label for="skill-rust"><input type="checkbox" id="skill-rust" name="rust" value="rust"> Rust</label>
+    <label for="skill-go"><input type="checkbox" id="skill-go" name="go" value="go"> GO</label>
+    <label for="skill-c"><input type="checkbox" id="skill-c" name="c" value="c"> C</label>
+    <label for="skill-c++"><input type="checkbox" id="skill-c++" name="c++" value="c++"> C++</label>
+    <label for="skill-c#"><input type="checkbox" id="skill-c#" name="c#" value="c#"> C#</label>
+
+    <textarea id="bio" name="bio" placeholder="Write about yourself"></textarea>
+    
+    <input type="submit" id="submit" name="submit" value="Submit" />
+  </form>
+  </body>
+</html>
